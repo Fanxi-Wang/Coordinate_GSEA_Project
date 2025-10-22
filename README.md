@@ -26,7 +26,7 @@ This repository represents the downstream bioinformatics workflow from my capsto
 ---
 
 ## Files
-- `Coordinate_GSEA.Rmd` — main R Markdown script for GSEA analysis  
+- **Coordinate_GSEA_analysis.R** — main R script containing the full analysis pipeline
 - *(No data files are included due to privacy restrictions.)*
 
 ---
@@ -39,11 +39,6 @@ data.table, dplyr, clusterProfiler, org.Hs.eg.db,
 GO.db, fgsea, ggplot2, tibble, reshape2, gsEasy, AnnotationDbi
 ```
 
-## How to Run
-
-Open Coordinate_GSEA.Rmd in RStudio
-
-Click Knit → Knit to HTML to generate the report
 
 ## Summary
 
